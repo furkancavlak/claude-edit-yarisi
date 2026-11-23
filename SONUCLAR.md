@@ -52,7 +52,7 @@ Göze çarpanlar:
 
 ## Videolar
 
-**Videolar yakında Releases bölümünde:** [github.com/furkancavlak/claude-edit-yarisi/releases](https://github.com/furkancavlak/claude-edit-yarisi/releases) (sürüm `v1`, "8 edit").
+**Videolar Releases bölümünde:** [github.com/furkancavlak/claude-edit-yarisi/releases/tag/v1](https://github.com/furkancavlak/claude-edit-yarisi/releases/tag/v1) (sürüm `v1`, "8 edit"). YouTube videosu: https://youtu.be/9q6swZ6xQa4
 Videolar git geçmişinde değil, yalnız Releases'te durur.
 
 | Görev | Model | Araç | Süre | Dosya (Releases `v1`) |

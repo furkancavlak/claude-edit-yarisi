@@ -29,7 +29,7 @@ geçiş/efekt/filtre, sticker, maske, yazı stili, iki tür yazı animasyonu, ö
 
 ## Videolar
 
-**Videolar yakında Releases bölümünde:** [Releases](https://github.com/furkancavlak/claude-edit-yarisi/releases) (sürüm `v1`, "8 edit").
+**Videolar Releases bölümünde:** [8 edit, sürüm v1](https://github.com/furkancavlak/claude-edit-yarisi/releases/tag/v1). Yarışın anlatıldığı YouTube videosu: https://youtu.be/9q6swZ6xQa4
 
 | Görev | Model | Yol | Dosya |
 |---|---|---|---|
