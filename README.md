@@ -43,7 +43,7 @@ geçiş/efekt/filtre, sticker, maske, yazı stili, iki tür yazı animasyonu, ö
 | 2 TikTok | Fable 5.2 | CapCut MCP | `gorev2-tiktok-fable52-capcut.mp4` |
 
 - Hepsi ilk deneme. İki GTA HyperFrames videosu da ilk denemedir; Opus 5.5'in GTA videosundaki birkaç donma modelden
-  değil, ikinci bilgisayardaki ham kliplerden kaynaklandı.
+  değil, ham kliplerin kendisinden geliyor (kaynak kliplerde gömülü donma ve seyrek anahtar kare var).
 - CapCut videoları CapCut'ın varsayılan bit hızıyla dışa aktarıldı (dosyaları bu yüzden küçük).
 - GTA editlerinde başka yayıncıların yayın görüntüleri var; haklar o yayıncılarındır.
 

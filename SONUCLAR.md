@@ -67,8 +67,8 @@ Videolar git geçmişinde değil, yalnız Releases'te durur.
 | 2 TikTok | Fable 5.2 | CapCut MCP | 33 sn | `gorev2-tiktok-fable52-capcut.mp4` |
 
 Notlar:
-- İki GTA HyperFrames videosu da ilk denemedir. Opus 5.5'in GTA videosundaki birkaç donma modelden değil, ikinci
-  bilgisayardaki ham kliplerden kaynaklandı.
+- İki GTA HyperFrames videosu da ilk denemedir. Opus 5.5'in GTA videosundaki birkaç donma modelden değil, ham
+  kliplerin kendisinden geliyor (kaynak kliplerde gömülü donma ve seyrek anahtar kare var).
 - CapCut videoları, modelin kurduğu taslağı bir insanın CapCut'ta açıp **varsayılan bit hızıyla** dışa aktarmasıyla
   çıktı (bu yüzden dosyaları HyperFrames çıktılarından çok küçük). Model dışa aktaramaz; kurallar bunu yasaklıyor.
 - GTA editlerinde başka yayıncıların yayın görüntüleri var; haklar o yayıncılarındır. Videolar karşılaştırma ve
