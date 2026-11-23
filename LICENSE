@@ -1,0 +1,59 @@
+Claude Edit Yarışı License
+(MIT License with an attribution condition)
+
+Copyright (c) 2026 Furkan Cavlak ve katkıcılar
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+1. The above copyright notice and this permission notice shall be included in
+   all copies or substantial portions of the Software.
+
+2. Attribution. You may not present the Software, or any renamed or modified
+   version of it, as a system that you created yourself. Whenever you publicly
+   present, promote or redistribute the Software or a work based on it (for
+   example in a video, a post, a download page or a repository), you must
+   clearly credit the source in that same place:
+
+       Claude Edit Yarışı, Furkan Cavlak
+       github.com/furkancavlak/claude-edit-yarisi
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Third-party parts: the original capcut-mcp code in the capcut-mcp/ folder is
+Copyright (c) 2026 James Aldrin Boncales and is distributed under the plain
+MIT License (see capcut-mcp/LICENSE-upstream). That notice stays with it.
+The changes and new files added in this repository are covered by the license
+above. See capcut-mcp/NOTICE.md for what came from where.
+
+--------------------------------------------------------------------------------
+
+Türkçe açıklama (yukarıdaki metnin özetidir; anlaşmazlıkta İngilizce metin geçerlidir)
+
+Serbest olanlar:
+- Kullanmak, kodu almak, değiştirmek, geliştirmek, üstüne kendi işini yapmak.
+- Değiştirdiğin sürümü başkalarına vermek.
+
+Yasak olan:
+- Bu sistemi ya da adını değiştirdiğin bir sürümünü kendin yapmış gibi sunmak.
+
+Şart:
+- Videoda, gönderide, indirme sayfasında ya da depoda bu sistemi (ya da ondan
+  türeyen bir işi) tanıtırken, paylaşırken kaynağı aynı yerde açıkça yaz:
+  Claude Edit Yarışı, Furkan Cavlak
+  github.com/furkancavlak/claude-edit-yarisi
+
+Bu lisans yalnız bu deponun kendi kodunu ve içeriklerini kapsar. Depoyla
+birlikte gelen üçüncü taraf parçalar kendi lisanslarıyla dağıtılır:
+capcut-mcp/ klasöründeki özgün capcut-mcp kodu James Aldrin Boncales'e aittir
+ve düz MIT lisanslıdır (capcut-mcp/LICENSE-upstream).

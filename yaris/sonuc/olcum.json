@@ -1,0 +1,234 @@
+{
+ "etiket": "API fiyatıyla karşılığı (sahibi sabit abonelik öder; gerçek fatura değil)",
+ "fiyat_kaynagi": "Claude API fiyat sayfası, 23.11.2026. Opus 5.5: $4 giriş / $20 çıkış / $5 cache yazma 5dk / $8 1sa / $0.20 cache okuma (milyon token başına). Fable 5.2: $8 / $40 / $10 / $16 / $0.20. Fiyat transkriptteki model kimliğine göre seçildi.",
+ "olcum_araci": "yaris/araclar/cc-olcum.cjs",
+ "notlar": [
+  "Zamanlar yerel (UTC+3). HyperFrames koşularında bitis = teslimden önceki son asistan mesajı; sonradan gelen \"klasörü aç / videoyu aç\" yazışmaları hariç.",
+  "Tur ve araç çağrısı sayısı mesaj kimliğine göre tekilleştirildi; token alanları mesaj başına en büyük değer.",
+  "Yarışan sürüm her koşunun 1. denemesi; revize turu yok.",
+  "K2-F-HF: geçerli koşu, ikinci bilgisayarda yapılan Fable 5.2 koşusu (transkriptteki bütün mesajlar claude-fable-5-2). Daha önceki Fable 5.1 denemesi yarışa sayılmadı.",
+  "Görev 1 = GTA yayıncı kesitleri (kod K2), Görev 2 = TikTok oyunu tanıtımı (kod K1)."
+ ],
+ "runs": {
+  "K2-O-HF": {
+   "baslangic": "2026-11-23T16:51:26+03:00",
+   "bitis": "2026-11-23T17:18:01+03:00",
+   "dakika": 26.6,
+   "asistan_tur": 67,
+   "arac_cagri": 83,
+   "token": {
+    "input": 150,
+    "output": 75642,
+    "cache_olusturma": 192304,
+    "cache_okuma": 10590781
+   },
+   "token_toplam": 10858877,
+   "model_id": "claude-opus-5-5",
+   "fiyat_kullanilan_usd_mtok": {
+    "giris": 4,
+    "cikis": 20,
+    "cache_yazma_5dk": 5,
+    "cache_yazma_1sa": 8,
+    "cache_okuma": 0.2
+   },
+   "cache_yazma_ayrinti": {
+    "ephemeral_5m": 0,
+    "ephemeral_1h": 192304
+   },
+   "cost_usd": 5.17
+  },
+  "K2-F-HF": {
+   "baslangic": "2026-11-23T20:09:00+03:00",
+   "bitis": "2026-11-23T20:54:00+03:00",
+   "dakika": 44.7,
+   "asistan_tur": 73,
+   "arac_cagri": 121,
+   "token": {
+    "input": 178,
+    "output": 148758,
+    "cache_olusturma": 371519,
+    "cache_okuma": 20028432
+   },
+   "token_toplam": 20548887,
+   "model_id": "claude-fable-5-2",
+   "fiyat_kullanilan_usd_mtok": {
+    "giris": 8,
+    "cikis": 40,
+    "cache_yazma_5dk": 10,
+    "cache_yazma_1sa": 16,
+    "cache_okuma": 0.2
+   },
+   "cache_yazma_ayrinti": {
+    "ephemeral_5m": 0,
+    "ephemeral_1h": 371519
+   },
+   "cost_usd": 15.9
+  },
+  "K2-O-CC": {
+   "baslangic": "2026-11-23T20:15:14+03:00",
+   "bitis": "2026-11-23T20:36:57+03:00",
+   "dakika": 21.72,
+   "asistan_tur": 97,
+   "arac_cagri": 366,
+   "alt_ajan_dosyasi": 0,
+   "token": {
+    "input": 218,
+    "output": 112782,
+    "cache_olusturma": 310992,
+    "cache_okuma": 21481342
+   },
+   "token_toplam": 21905334,
+   "model_id": "claude-opus-5-5",
+   "fiyat_kullanilan_usd_mtok": {
+    "giris": 4,
+    "cikis": 20,
+    "cache_yazma_5dk": 5,
+    "cache_yazma_1sa": 8,
+    "cache_okuma": 0.2
+   },
+   "cache_yazma_ayrinti": {
+    "ephemeral_5m": 0,
+    "ephemeral_1h": 310992
+   },
+   "cost_usd": 9.04
+  },
+  "K2-F-CC": {
+   "baslangic": "2026-11-23T20:15:53+03:00",
+   "bitis": "2026-11-23T20:42:11+03:00",
+   "dakika": 26.3,
+   "asistan_tur": 60,
+   "arac_cagri": 292,
+   "alt_ajan_dosyasi": 0,
+   "token": {
+    "input": 130,
+    "output": 130619,
+    "cache_olusturma": 336847,
+    "cache_okuma": 14432812
+   },
+   "token_toplam": 14900408,
+   "model_id": "claude-fable-5-2",
+   "fiyat_kullanilan_usd_mtok": {
+    "giris": 8,
+    "cikis": 40,
+    "cache_yazma_5dk": 10,
+    "cache_yazma_1sa": 16,
+    "cache_okuma": 0.2
+   },
+   "cache_yazma_ayrinti": {
+    "ephemeral_5m": 0,
+    "ephemeral_1h": 336847
+   },
+   "cost_usd": 13.5
+  },
+  "K1-O-HF": {
+   "baslangic": "2026-11-23T19:01:04+03:00",
+   "bitis": "2026-11-23T19:17:51+03:00",
+   "dakika": 16.78,
+   "asistan_tur": 53,
+   "arac_cagri": 62,
+   "token": {
+    "input": 118,
+    "output": 68811,
+    "cache_olusturma": 165856,
+    "cache_okuma": 7253209
+   },
+   "token_toplam": 7487994,
+   "model_id": "claude-opus-5-5",
+   "fiyat_kullanilan_usd_mtok": {
+    "giris": 4,
+    "cikis": 20,
+    "cache_yazma_5dk": 5,
+    "cache_yazma_1sa": 8,
+    "cache_okuma": 0.2
+   },
+   "cache_yazma_ayrinti": {
+    "ephemeral_5m": 0,
+    "ephemeral_1h": 165856
+   },
+   "cost_usd": 4.15
+  },
+  "K1-F-HF": {
+   "baslangic": "2026-11-23T19:32:35+03:00",
+   "bitis": "2026-11-23T19:58:07+03:00",
+   "dakika": 25.53,
+   "asistan_tur": 47,
+   "arac_cagri": 86,
+   "token": {
+    "input": 106,
+    "output": 104442,
+    "cache_olusturma": 247954,
+    "cache_okuma": 8116042
+   },
+   "token_toplam": 8468544,
+   "model_id": "claude-fable-5-2",
+   "fiyat_kullanilan_usd_mtok": {
+    "giris": 8,
+    "cikis": 40,
+    "cache_yazma_5dk": 10,
+    "cache_yazma_1sa": 16,
+    "cache_okuma": 0.2
+   },
+   "cache_yazma_ayrinti": {
+    "ephemeral_5m": 0,
+    "ephemeral_1h": 247954
+   },
+   "cost_usd": 9.77
+  },
+  "K1-O-CC": {
+   "baslangic": "2026-11-23T20:17:03+03:00",
+   "bitis": "2026-11-23T20:34:55+03:00",
+   "dakika": 17.86,
+   "asistan_tur": 90,
+   "arac_cagri": 253,
+   "alt_ajan_dosyasi": 0,
+   "token": {
+    "input": 184,
+    "output": 87840,
+    "cache_olusturma": 245740,
+    "cache_okuma": 17308971
+   },
+   "token_toplam": 17642735,
+   "model_id": "claude-opus-5-5",
+   "fiyat_kullanilan_usd_mtok": {
+    "giris": 4,
+    "cikis": 20,
+    "cache_yazma_5dk": 5,
+    "cache_yazma_1sa": 8,
+    "cache_okuma": 0.2
+   },
+   "cache_yazma_ayrinti": {
+    "ephemeral_5m": 0,
+    "ephemeral_1h": 245740
+   },
+   "cost_usd": 7.19
+  },
+  "K1-F-CC": {
+   "baslangic": "2026-11-23T20:18:06+03:00",
+   "bitis": "2026-11-23T20:42:56+03:00",
+   "dakika": 24.84,
+   "asistan_tur": 76,
+   "arac_cagri": 264,
+   "alt_ajan_dosyasi": 0,
+   "token": {
+    "input": 154,
+    "output": 110173,
+    "cache_olusturma": 266599,
+    "cache_okuma": 16385330
+   },
+   "token_toplam": 16762256,
+   "model_id": "claude-fable-5-2",
+   "fiyat_kullanilan_usd_mtok": {
+    "giris": 8,
+    "cikis": 40,
+    "cache_yazma_5dk": 10,
+    "cache_yazma_1sa": 16,
+    "cache_okuma": 0.2
+   },
+   "cache_yazma_ayrinti": {
+    "ephemeral_5m": 0,
+    "ephemeral_1h": 266599
+   },
+   "cost_usd": 11.95
+  }
+ }
+}

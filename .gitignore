@@ -1,0 +1,40 @@
+# dependencies
+node_modules/
+
+# local data built from YOUR CapCut install: never commit
+catalog.local.json
+*.db
+*.db-shm
+*.db-wal
+
+# CapCut working files
+*.mcpbak
+*.tmp
+*.locked
+
+# media never goes into git (videos live in GitHub Releases)
+*.mp4
+*.mov
+*.webm
+*.mkv
+*.wav
+*.mp3
+*.m4a
+*.aac
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+
+# race working folders, if you run a race inside this repo
+ham/
+ortak/
+cikti/
+
+# secrets and OS files
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db

@@ -1,0 +1,25 @@
+{
+  "name": "capcut-mcp",
+  "version": "0.2.0-yaris",
+  "description": "MCP server that lets Claude read and edit CapCut desktop draft projects. Fork of JmsLdrn/capcut-mcp with fixes and effect/text/crop tools (edit race edition).",
+  "type": "module",
+  "bin": {
+    "capcut-mcp": "src/server.js"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "catalog": "node scripts/build-catalog.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^4.4.3"
+  },
+  "license": "SEE LICENSE IN NOTICE.md",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/furkancavlak/claude-edit-yarisi"
+  }
+}

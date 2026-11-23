@@ -1,0 +1,12 @@
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
+
+# CapCut working artifacts (never commit real drafts or backups)
+*.mcpbak
+*.tmp
+*.locked
+
+# local effect catalog built from YOUR CapCut cache (never commit)
+catalog.local.json
